@@ -1,5 +1,7 @@
 # Argemia-Cube
 
+Nexusmods: https://www.nexusmods.com//mods/1/&game_id=6321
+
 ### EN
 This is a humorous open source test mod that replaces the cube models with the Argemia model.
 
