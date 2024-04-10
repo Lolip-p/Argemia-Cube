@@ -20,6 +20,8 @@ namespace PIR_TestMod
             assetBundleLoaderObject = new GameObject("AssetBundleLoader");
             // Присоединяем компонент AssetBundleLoader к созданному объекту
             assetBundleLoader = assetBundleLoaderObject.AddComponent<AssetBundleLoader>();
+
+            assetBundleLoader.StartCoroutine(assetBundleLoader.AddNew()); // При старте вызывается метод AddNew и на сцену добавляется модель из AssetBundle
         }
 
         public override void OnUpdate()
@@ -31,7 +33,7 @@ namespace PIR_TestMod
                 if (assetBundleLoader != null)
                 {
                     
-                    assetBundleLoader.StartCoroutine(assetBundleLoader.AddNew());
+                    assetBundleLoader.StartCoroutine(assetBundleLoader.AddNew()); // При нажатии кнопки L вызывается метод AddNew и на сцену добавляется модель из AssetBundle
                 }
             }
         }

@@ -59,12 +59,7 @@ namespace PIR_TestMod
                     MelonLogger.Msg("Prefabs were attached to cubes successfully.");
                 }
 
-                string[] allAssetNames = assetBundle.GetAllAssetNames();
-                foreach (string name in allAssetNames)
-                {
-                    // Отображает все доступные имена ассетов в бандле
-                    MelonLogger.Msg("Asset Name: " + name);
-                }
+                DisplayAssetName(assetBundle);
 
                 // Выгрузка AssetBundle из памяти
                 assetBundle.Unload(false);
@@ -75,7 +70,15 @@ namespace PIR_TestMod
             }
         }
 
-
+        private void DisplayAssetName(AssetBundle assetBundle)
+        {
+            string[] allAssetNames = assetBundle.GetAllAssetNames();
+            foreach (string name in allAssetNames)
+            {
+                // Отображает все доступные имена ассетов в бандле
+                MelonLogger.Msg("Asset Name: " + name);
+            }
+        }
 
         public IEnumerator AddNew()
         {

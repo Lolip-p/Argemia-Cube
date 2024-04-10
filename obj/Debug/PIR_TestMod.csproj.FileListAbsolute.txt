@@ -79,3 +79,4 @@ C:\Users\timon\source\repos\PIR_TestMod\obj\Debug\PIR_TestMod.csproj.CoreCompile
 C:\Users\timon\source\repos\PIR_TestMod\obj\Debug\PIR_TestMod.csproj.CopyComplete
 C:\Users\timon\source\repos\PIR_TestMod\obj\Debug\PIR_TestMod.dll
 C:\Users\timon\source\repos\PIR_TestMod\obj\Debug\PIR_TestMod.pdb
+C:\Users\timon\source\repos\PIR_TestMod\obj\Debug\PIR_TestMod.csproj.AssemblyReference.cache
